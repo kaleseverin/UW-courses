@@ -128,7 +128,7 @@
 	                Add Comments:
 	            </h2>
 	            <div id="Comment">
-                    <form id="comment" action="comment/comment-submit.php" method="post">
+                    <form id="comment" action="comment-submit.php" method="post">
 						<fieldset>
 							<legend>Add Your Comment!</legend>
 							

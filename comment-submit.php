@@ -12,10 +12,10 @@
 $user = $_POST["name"].",".$_POST["comment"].",".$_POST["star"]."\n";
 //appends the string at the end of professor.txt
 $professor = $_POST["professor"].".txt";
-if (!file_exists("$name$number.txt")) {
-	$fileHandle = fopen("$name$number.txt", 'w');
+if (!file_exists("comment/$name$number.txt")) {
+    $fileHandle = fopen("comment/$name$number.txt", 'w');
 	fclose($fileHandle);
 }
-chmod("$name$number.txt", 0664);
-file_put_contents("$name$number.txt", $user, FILE_APPEND);
+chmod("comment/$name$number.txt", 0664);
+file_put_contents("comment/$name$number.txt", $user, FILE_APPEND);
 ?>
