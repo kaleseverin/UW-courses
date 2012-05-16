@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-size:13px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	margin:0px;
+}
+
+#number{
+	text-align: right;
+}
+
+#banner{
+	background: white;
+}
+
+#header{
+	text-align:left;
+	text-color:#ffffff;
+	background-color:black;
+	font-family:Verdana, Geneva, sans-serif;
+	width:100%;
+	height:30px;
+	vertical-align:middle;
+}
+
+#layout {
+	margin-top: 50px;
+	background: white;
+	border: 4px solid gray;
+	border-radius: 20px;
+	width: 800px;
+	overflow: hidden;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+h2{
+	margin: 0px;
+	text-align:center;
+	font-size:20px;
+	color: black;
+}
+
+p{
+	text-align: center;
+}
+
+pre{
+	width:100%;
+}
+
+#makeComment {
+	text-align: center;
+}

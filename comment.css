@@ -1,0 +1,23 @@
+#quote .reviewer {
+	text-align: right;
+}
+
+#quote .comment {
+	font-size: bigger;
+}
+
+#quote .star {
+	text-align: left;
+}
+
+#quote img {
+	text-align: center;
+}
+
+.comments {
+	width: 67%;
+	border: 3px ridge gray;
+	margin: 1em;
+	margin-left: 16%;
+	padding: 1em;
+}
