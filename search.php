@@ -113,7 +113,7 @@
 							<?php
 							for ($i = 0; $i < intval($star); $i++) {
 							?>
-								<img src="star.png" width="10" height="10" alt="star" />
+                            <img src="comment/star.png" width="10" height="10" alt="star" />
 								<?php
 							}
 							?>
@@ -128,7 +128,7 @@
 	                Add Comments:
 	            </h2>
 	            <div id="Comment">
-					<form id="comment" action="comment-submit.php" method="post">
+                    <form id="comment" action="comment/comment-submit.php" method="post">
 						<fieldset>
 							<legend>Add Your Comment!</legend>
 							
