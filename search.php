@@ -3,7 +3,7 @@
     <head>
         <title>Course Checker</title>
         <link href="search.css" type="text/css" rel="stylesheet" />
-		<link rel="shortcut icon" href="Images/uwfavicon.jpeg" type="image/x-icon"/>
+		<link rel="shortcut icon" href="images/uwfavicon.jpeg" type="image/x-icon"/>
         <script src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.0.0/prototype.js" type="text/javascript"></script>
         <script src="kaleJS.js" type="text/javascript"></script>
 		<script src="gen_validatorv4.js" type="text/javascript"></script>
@@ -25,7 +25,7 @@
 
     ?>
 	<div id = "banner">
-			<a href="http://students.washington.edu/cswiz/course"><img src="Images/banner1.jpg" /></a>
+			<a href="http://students.washington.edu/cswiz/course"><img src="images/banner1.jpg" /></a>
 	</div>
 	<div id="header">
     </div>

@@ -2,15 +2,15 @@
 <html>
     <head>
         <link href="index.css" type="text/css" rel="stylesheet"/>
-        <link rel="shortcut icon" href="Images/uwfavicon.jpeg" type="image/x-icon">
-        <script src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.0.0/prototype.js" type="text/javascript"></script>
+        <link rel="shortcut icon" href="images/uwfavicon.jpeg" type="image/x-icon">
+        <script src="https://ajax.googleipis.com/ajax/libs/prototype/1.7.0.0/prototype.js" type="text/javascript"></script>
         <script src="kaleJS.js" type="text/javascript"></script>
 		<script src="gen_validatorv4.js" type="text/javascript"></script>
         <title>Course Checker</title>
     </head>
 <body>
 	<div id = "banner">
-			<img src="Images/banner1.jpg" /> </a>
+			<img src="images/banner1.jpg" /> </a>
 	</div>
 	
 	<div id="header">
