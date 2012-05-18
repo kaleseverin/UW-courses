@@ -92,7 +92,7 @@
 	            <div id="quote">
 					<?php
 					$name=strtoupper($name);
-					if (!file_exists("$name$number.txt")) {
+					if (!file_exists("comment/$name$number.txt")) {
 					?>
 						<div class="comments">					
 							<div class="comment"><p>Sorry, No reviews about this course.  
@@ -100,7 +100,7 @@
 						</div>
 					<?php
 					} else {
-						$users = file("$name$number.txt", FILE_IGNORE_NEW_LINES);
+						$users = file("comment/$name$number.txt", FILE_IGNORE_NEW_LINES);
 						foreach ($users as $user) { 
 							$userinfo = explode(",", $user); 
 							$name = $userinfo[0];
