@@ -113,7 +113,7 @@
 							<?php
 							for ($i = 0; $i < intval($star); $i++) {
 							?>
-                            <img src="comment/star.png" width="10" height="10" alt="star" />
+                            <img src="images/star.png" width="10" height="10" alt="star" />
 								<?php
 							}
 							?>
