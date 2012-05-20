@@ -30,8 +30,10 @@
                 <label><input type="radio" name="quarter" value="WIN" />Winter</label>
 	   		</div>
 			<div class="searchbar">
-	        	<input type="text" name="course" size="10" /> Course Abbreviation
-	        	<input type="text" name="number" size="10" /> Course Number
+                Course Abbreviation
+	        	<input type="text" name="course" size="10" /> 
+                Course Number
+	        	<input type="text" name="number" size="10" /> 
 	        	<input type="submit" value="Search Course" />
 	    	</div>
 	    </form>
